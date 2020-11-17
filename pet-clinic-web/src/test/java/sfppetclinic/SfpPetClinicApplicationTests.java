@@ -1,4 +1,4 @@
-package pro.springframework.sfppetclinic;
+package sfppetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
