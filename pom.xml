@@ -4,7 +4,7 @@
 
     <groupId>pro.springframework</groupId>
     <artifactId>sfp-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -53,7 +53,6 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Azade/sfp-pet-clinic.git</developerConnection>
-        <tag>sfp-pet-clinic-0.0.1</tag>
     </scm>
 
 </project>

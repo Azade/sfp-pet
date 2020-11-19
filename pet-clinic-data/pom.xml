@@ -3,11 +3,8 @@
     <parent>
         <artifactId>sfp-pet-clinic</artifactId>
         <groupId>pro.springframework</groupId>
-<<<<<<< HEAD
-        <version>0.0.1</version>
-=======
-        <version>0.0.2-SNAPSHOT</version>
->>>>>>> 1391849d2b329cb957d9b0a16a35e57254d36431
+        <version>0.0.1-SNAPSHOT</version>
+
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
