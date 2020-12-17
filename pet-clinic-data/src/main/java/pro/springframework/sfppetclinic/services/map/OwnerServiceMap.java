@@ -1,11 +1,11 @@
 package pro.springframework.sfppetclinic.services.map;
 
 import pro.springframework.sfppetclinic.model.Owner;
-import pro.springframework.sfppetclinic.services.CrudService;
+import pro.springframework.sfppetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -31,4 +31,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     public void deleteById(Long id) {
         super.deleteById(id);
     }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
+    }
+
 }
