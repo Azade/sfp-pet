@@ -1,5 +1,6 @@
 package pro.springframework.sfppetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import pro.springframework.sfppetclinic.model.Visit;
 import pro.springframework.sfppetclinic.services.VisitService;
@@ -7,6 +8,7 @@ import pro.springframework.sfppetclinic.services.VisitService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService  extends AbstractMapService<Visit, Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
